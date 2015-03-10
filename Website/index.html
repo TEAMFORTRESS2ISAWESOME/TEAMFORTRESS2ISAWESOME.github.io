@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TF2 Jump</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="/assets/js/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">
+        Aww, your browser doesn't support HTML5!
+      </canvas>
+
+      <div id="mainMenu">
+        <h1>TF2 JUMP</h1>
+        <h3>HELP THE SOLDIER ROCKET JUMP UP TO HIGHER lEVELS</h3>
+        <h3>...by <a href="https://www.facebook.com/keith.cheung.98622" target="_blank">Keith Cheung</a></h3>
+  			<h3>and <a href="" target="_blank">The soldier is midget</a></h3>
+
+        <p class="info">
+          use
+          <span class="key left">←</span>
+          <span class="key right">→</span>
+          to move and space to jump again!
+        </p>
+        <a class="button" href="javascript:init()">START ROCKETJUMPING!</a>
+      </div>
+
+      <div id="gameOverMenu">
+        <h1>THE SOLDIER DIED</h1>
+        <h3 id="go_score">the soldier survived for 0 time</h3>
+
+        <a class="button" href="javascript:reset()">Jump again!</a>
+        <a id="tweetBtn" target="_blank" class="button tweet" href="#">Tweet score</a>
+
+        <a id="fbBtn" target="_blank" class="button fb" href="#">Post on FB</a>
+      </div>
+
+      <!-- Preloading image ;) -->
+      <img id="sprite" src="sprites"/>
+
+      <div id="scoreBoard">
+        <p id="score">0</p>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
