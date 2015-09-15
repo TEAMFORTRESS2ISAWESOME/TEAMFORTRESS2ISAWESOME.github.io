@@ -1223,7 +1223,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("http://images.akamai.steamusercontent.com/ugc/539650639760441198/F2A3770BF5BA6443BA3BC0FFE347ADE8FC40C9F8/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C2048:1152&composite-to=*,*%7C2048:1152&background-color=black"), url("http://images.akamai.steamusercontent.com/ugc/539650639760441198/F2A3770BF5BA6443BA3BC0FFE347ADE8FC40C9F8/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C2048:1152&composite-to=*,*%7C2048:1152&background-color=black"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
