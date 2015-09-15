@@ -10,6 +10,7 @@
 /* Basic */
 
 	body {
+		text-shadow: 2px 2px 4px #ff0000;
 		background: #fff;
 	}
 
